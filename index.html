@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">//script tag of type javascript
+        let companies=
+        //to represent json as string we used `
+    ` [
+    {
+        "name":"hagnosoft",
+        "noOfEmployes":500,
+        "location":"banglore"
+    },
+    {
+        "name":"oracle",
+        "noOfEmployes":5000,
+        "location":"banglore"
+    }
+]`
+//converting string to object.(JSON.parse(variable name))
+    console.log(JSON.parse(companies)[1].name)
+    </script>
+</body>
+</html>

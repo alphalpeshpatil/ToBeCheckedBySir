@@ -1,0 +1,12 @@
+[
+    {
+        "name":"hagnosoft",
+        "noOfEmployes":500,
+        "location":"banglore"
+    },
+    {
+        "name":"oracle",
+        "noOfEmployes":5000,
+        "location":"banglore"
+    }
+]
